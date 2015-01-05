@@ -7,7 +7,7 @@
 # Pull base image.
 FROM dockerfile/nodejs
 
-ENV GHOST_VERSION 0.5.0
+ENV GHOST_VERSION 0.5.1
 
 # Install Ghost
 RUN \
