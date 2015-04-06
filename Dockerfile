@@ -11,6 +11,8 @@ ENV GHOST_VERSION 0.5.7
 
 # Install Ghost
 RUN \
+  apt-get update && \
+  apt-get install -y unzip && \
   cd /tmp && \
   wget https://ghost.org/zip/ghost-$GHOST_VERSION.zip && \
   unzip ghost-$GHOST_VERSION.zip -d /ghost && \
