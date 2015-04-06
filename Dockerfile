@@ -5,7 +5,7 @@
 #
 
 # Pull base image.
-FROM dockerfile/nodejs
+FROM node:0.10
 
 ENV GHOST_VERSION 0.5.7
 
